@@ -19,12 +19,15 @@ a{
 
 body, html {
 background-image: url("https://images.unsplash.com/photo-1499159058454-75067059248a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ca1797059213518b2bffe228cc8126b");
-	background-position: center;
+ 
     background-repeat: no-repeat;
     background-size: cover;
-  
-  
+background-position: center; 
+    position: absolute;
 }
+		
+			
+
 
   
 h1{font-family: 'LobsterRegular'; 
