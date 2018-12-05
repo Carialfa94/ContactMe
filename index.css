@@ -1,5 +1,5 @@
 fieldset{font-family : 'LobsterRegular';
-color : #DAA520k;
+color : orange;
 }
   
 #content {
@@ -25,13 +25,14 @@ background-size : cover;
 }
 h1 {
 font-family : 'LobsterRegular';
-color : black;
+color : #202020;
 text-align : right;
 font-weight : bold;
 font-style : normal;
 font-size : 800%;
 margin : 0;
 padding : 0;
+  background-color : #EAE0C8;
 }
 h2 {
 font-family : 'LobsterRegular';
@@ -76,15 +77,6 @@ background-image : url("https://images.unsplash.com/photo-1499159058454-75067059
 main {
 overflow : auto;
 }
-h1, h3, h2 {
-text-align : center;
-padding : 5px;
-margin-right : auto;
-margin-left : auto;
-font-family : 'unique';
-font-weight : bold;
-font-style : normal;
-}
 nav, section, footer {
 margin : 4%;
 padding : 0.5em;
@@ -104,9 +96,7 @@ padding : 0.5em 0;
 a {
 color : maroon;
 }
-h1 {
-background-color : pink;
-}
+
 img {
 float : right;
 }
@@ -117,7 +107,7 @@ float : left;
 clear : both;
 }
 footer {
-background-color : seashell;
+background-color : white;
 text-align : center;
 padding : 0.5em 0;
 }
