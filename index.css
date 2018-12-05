@@ -6,15 +6,50 @@ color:red;
 
 }
 
+		
+a{
+    font-size: 200%;
+  color:#cc3300;
+    text-align: center;
+}
+			#nav, #footer, #option {
+			    text-align: center;
+			
+				padding: 0.5em 0;}
+
+body, html {
+background-image: url("https://images.unsplash.com/photo-1499159058454-75067059248a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ca1797059213518b2bffe228cc8126b");
+ 
+    background-repeat: no-repeat;
+    background-size: cover;
+background-position: center; 
+    position: absolute;
+}
+		
+			
+
+
   
 h1{font-family: 'LobsterRegular'; 
                  color: black;
+				text-align: right;
+                font-weight: bold; 
+                font-style: normal;
+                font-size: 800%;
+   margin: 0px;
+  padding: 0px;
+
+  
 }
 
 
 h2{
+font-family: 'LobsterRegular';  
     color: #8B4513;
-  	}
+  	text-align: right;
+  position:right ;
+  
+	}
 
 
   p{
@@ -27,9 +62,32 @@ h2{
 }
 	  
   mark {
-     color: yellow;
+   
+    color: yellow;
 }
- 
+  
+
+			li  {
+  text-align: center;
+				font-family: 'LobsterRegular';  
+                font-weight: normal; 
+                font-style: normal;
+              display: inline;
+				padding: 0.5em;
+}
+
+
+h3 {
+  font-family: 'DancingScriptRegular';
+   background-color: #202020;
+   color: #8B4513;
+  font-weight: bold;
+ font-size:300%;
+  font-weight: 900;
+  text-align: center;
+  margin: 0
+    
+}
 
 body {
   font-family: Arial, sans-serif;
@@ -40,22 +98,12 @@ body {
 }
 main {
   overflow: auto;}
-h1, h2{ 
+h1, h3, h2{ 
   text-align: center;
   padding: 5px;  
   margin-right:auto; 
   margin-left:auto;
-  font-family: 'LobsterRegular'; 
-  font-weight: bold; 
-  font-style: normal; }
-
-h3{ 
-  text-align: center;
-  padding: 5px;  
-  margin-right:auto; 
-  margin-left:auto;
-  font-family: 'DancingScriptRegular'; 
-	color: #8B4513;
+  font-family: 'unique'; 
   font-weight: bold; 
   font-style: normal; }
 
@@ -66,9 +114,6 @@ nav, section, footer
 
 li {
   text-align: center;
-font-family: 'LobsterRegular';  
-  font-weight: normal; 
-  font-style: normal;
   display: inline;
   padding: 0.5em;}
 nav {
@@ -105,6 +150,3 @@ section{margin-bottom: 1em;}
 section {
   background-color: papayawhip;}
 
-
-
-  
