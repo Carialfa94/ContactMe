@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html lang=en>
-	<head>
-		 <meta charset="UTF-8">
-  <meta name="M03 - Module Assignment" content="Website">
-  <meta name="Carina Alfaro Garcia" content="PROG109">
- <meta name="viewport" content="width=device-width">
-<title>My Porfolio</title>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+<title>Contact Me</title>
  <link rel="stylesheet" type="text/css" href="index.css" />
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dancing-font" type="text/css"/>
 <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/lobster" type="text/css"/>
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/kaushan-script" type="text/css"/>    
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebusneuebold" type="text/css"/>
 </head>
-<body>
-  
-<div id="wrap">
 
- <div class="box">
+<body>
 <h1>Contact Me</h1>
   <h2>Database Analyst | Year Up student </h2>
 </div>
@@ -35,35 +31,50 @@
  
 </ul>
 </div>
-<hr>
-   <h2>Contact Form</h2>
-        <form action="thankyou.html" method="get">
+  <br/><br/>
 
-          Full Name:<br>
-          <input type="text" name="myContact" maxlength="50"><p>
-
-          Email Address:<br>
-          <input type="email" name="email" maxlength="50"><p>
-
-          Comments:<br>
-          <textarea name="comment" cols="20" rows="5"></textarea><p>
-            <p>
-
-            <input type="submit" value="Send">
-
-        </form>
-
-        <div class="clear"> </div>
-
-        <div class="clear"> </div>
-
-</div>
-
-
-</div>
+  
+  <div id="errorMessages"></div>
+  <form action="thankyou.html" method="get" name="myContact" onSubmit="return ValidateForm(); ">
+    
+    <fieldset>
+      <legend><b>User Information</b></legend>
+      <label for="fname">Enter Firstname <i>(Max 15 characters)</i> </label>
+      <br>
+      <input type="text" id="fname">
+      <br>
+      <label for="lname">Enter Lastname <i>(Max 30 characters)</i> </label>
+      <br>
+      <input type="text" id="lname">
+      <br>
+      <label for="email">Enter Email <i> (Required)</i></label>
+      <br>
+      <input type="text" id="email">
+      <br>
+      <label for="number">Enter Phone Number <i>(Max 15 Characters)</i> </label>
+      <br>
+      <input type="text" id="number">
+      <br>
 
 
+    </fieldset>
+   
 
+    <fieldset>
+      <legend><b>Comments or Questions<i>(Optional)</i></b></legend>
+      <textarea name="commentbox" id="cbox" rows="4" cols="50"></textarea>
+    </fieldset>
 
-</body>
+    <br>
+    <input id="submit" type="submit" value="Submit">
+    <input id="cancel" type="submit" value="Cancel">
+  </form>
+  
+  
+      <script src="index.js"></script>
+  
+</body> 
+
 </html>
+
+
