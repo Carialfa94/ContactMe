@@ -76,6 +76,7 @@ font-family: 'LobsterRegular';
 				padding: 0.5em;
 }
 
+
 h3 {
   font-family: 'DancingScriptRegular';
    background-color: #202020;
@@ -87,6 +88,68 @@ h3 {
   margin: 0
     
 }
+
+body {
+  font-family: Arial, sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(195, 156, 237);
+  background-image: url("https://images.unsplash.com/photo-1499159058454-75067059248a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ca1797059213518b2bffe228cc8126b")
+}
+main {
+  overflow: auto;}
+h1, h3, h2{ 
+  text-align: center;
+  padding: 5px;  
+  margin-right:auto; 
+  margin-left:auto;
+  font-family: 'unique'; 
+  font-weight: bold; 
+  font-style: normal; }
+
+nav, section, footer 
+{margin: 4%;
+  padding:0.5em;
+  color: rgb(41, 8, 76);}
+
+li {
+  text-align: center;
+  display: inline;
+  padding: 0.5em;}
+nav {
+
+  font-family: Impact, Charcoal, 'CMUSerifRoman'; 
+  text-align: center;
+  background-color: #a4c1cd;
+  padding: 0.5em 0;}
+a {
+  color: maroon;}
+h1{
+  background-color: pink;
+
+}
+img  {
+  float: right;
+}
+
+iframe style {
+  float:left;
+}
+
+
+#footer {
+  clear: both;
+}
+footer {
+  background-color: seashell;
+  text-align: center;
+  padding: 0.5em 0;}
+
+section{margin-bottom: 1em;}
+
+section {
+  background-color: papayawhip;}
+
 
 
   
